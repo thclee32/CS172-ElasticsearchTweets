@@ -30,3 +30,5 @@ this returns the first tweet in the index.
 curl.exe -XGET 'http://localhost:9200/tweetindex/tweet/_search?q=Riverside'
 ```
 this returns all tweets that contain the string "Riverside" in any of the fields.
+
+NOTE: all these commands are for Windows Powershell. MacOS Terminal and unix terminals may use different commands. Ex. curl.exe would just be curl.
