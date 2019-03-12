@@ -1,10 +1,32 @@
-I'm using python 3 so that might affect you guys.
+To use:
+Navigate to the elasticsearch folder. Run this command: 
+'''
+./elasticsearch-5.1.1/bin/elasticsearch 
+'''
 
-To use this, just use python twitter_streaming.py > [name of file you want to put the results in]
+(or whatever version of elasticsearch you're using) to start Elasticsearch.
 
-Currently using a bounding box around Riverside, CA including a little bit of Jurupa Valley and Moreno Valley.
+To verify that Elasticsearch is running, open another terminal and use:
+'''
+curl.exe -XGET http://localhost:9200
+'''
+(Elasticsearch uses localhost:9200 by default) 
 
-Need to verify that these tweets are actually coming from our area. Gets returned in bounding box polygon coordinates. 
+If it is running, navigate to the Elasticsearch folder once more in the second terminal, and run:
+'''
+curl.exe -XPOST 'http://localhost:9200/_bulk' --data-binary '@file.txt'
+'''
+File.txt is a modified version of the tweets json, which creates an index called "tweetindex", with objects "tweets".
 
-I ran it for the whole night (~10 hours) and it only came back with 13 MB of tweets. So either my coordinates are off, or we're going to need to run this for a long time to get 1 GB worth of data.
--Thomas
+It should echo the tweets that were added to the index.
+
+Then a sample query looks like this:
+'''
+curl.exe -XGET 'localhost:9200/tweetindex/tweet/1?pretty'
+'''
+this returns the first tweet in the index.
+
+'''
+curl.exe -XGET 'http://localhost:9200/tweetindex/tweet/_search?q=Riverside'
+'''
+this returns all tweets that contain the string "Riverside" in any of the fields.
