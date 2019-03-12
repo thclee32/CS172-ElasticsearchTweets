@@ -2,7 +2,7 @@ import json
 
 filecount = 0
 count = 1
-for filecount in range(11):
+for filecount in range(12):
     filestring = str(filecount)
     inputfile = open('rawtweets/twitter_data' + filestring  + '.txt', 'r')
     outputfile = open('elasticreadytweets/elastictwitter_data' + filestring + '.txt', 'w')
