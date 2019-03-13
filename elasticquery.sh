@@ -6,6 +6,17 @@ do
 
     read queryterm
 
-    curl -XGET "localhost:9200/tweetindex/tweet/_search?q=text:$queryterm&pretty"
+    curl -XGET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+    {
+        "query" : {
+            "match" : { "text" : "'"$queryterm"'"}
+        },
+        "highlight" : {
+            "fields" : {
+                "text" : {}
+            }
+        }
+    }
+    '
     echo " "
 done
