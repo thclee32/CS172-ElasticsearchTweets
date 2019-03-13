@@ -16,6 +16,7 @@ To search for tweets with a certain word in it, run:
 ./elasticquery.sh
 ```
 This script will prompt you for a query term, and search for it in the tweet text.
+
 It returns all information of all tweets that match your query, and highlights (snippet) the relevant text at the bottom of each tweet.
 
 
