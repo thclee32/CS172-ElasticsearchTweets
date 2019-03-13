@@ -1,3 +1,14 @@
+To run:
+Start Elasticsearch. (Whatever version you have)
+
+Navigate to this directory (the one this README is in)
+
+Run the elasticquery.sh script. This will bulk load all 35087 tweets into Elasticsearch.
+
+To run a query, run the elasticquery.sh script. This will search for your query term in tweet text.
+
+If you want to manually run the commands, instead of using the scripts:
+
 To use:
 Navigate to the elasticsearch folder. Run this command: 
 ```
@@ -14,9 +25,10 @@ curl.exe -XGET http://localhost:9200
 
 If it is running, navigate to the Elasticsearch folder once more in the second terminal, and run:
 ```
-curl.exe -XPOST 'http://localhost:9200/_bulk' --data-binary '@file.txt'
+curl.exe -XPOST 'http://localhost:9200/_bulk' --data-binary '@<filename>'
 ```
-File.txt is a modified version of the tweets json, which creates an index called "tweetindex", with objects "tweets".
+Replace <filename>.
+The file has to be a modified version of the tweets json, which creates an index called "tweetindex", with objects "tweet".
 
 It should echo the tweets that were added to the index.
 
@@ -27,7 +39,7 @@ curl.exe -XGET 'localhost:9200/tweetindex/tweet/1?pretty'
 this returns the first tweet in the index.
 
 ```
-curl.exe -XGET 'http://localhost:9200/tweetindex/tweet/_search?q=Riverside'
+curl.exe -XGET 'http://localhost:9200/tweetindex/tweet/_search?q=Riverside&pretty'
 ```
 this returns all tweets that contain the string "Riverside" in any of the fields.
 

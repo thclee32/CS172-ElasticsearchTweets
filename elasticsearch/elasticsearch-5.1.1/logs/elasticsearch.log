@@ -1632,3 +1632,33 @@ Was expecting one of:
 [2019-03-12T17:51:17,757][INFO ][o.e.n.Node               ] [22N5-W8] stopped
 [2019-03-12T17:51:17,757][INFO ][o.e.n.Node               ] [22N5-W8] closing ...
 [2019-03-12T17:51:17,770][INFO ][o.e.n.Node               ] [22N5-W8] closed
+[2019-03-12T17:59:31,175][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-03-12T17:59:31,287][INFO ][o.e.e.NodeEnvironment    ] [22N5-W8] using [1] data paths, mounts [[(C:)]], net usable_space [24.8gb], net total_space [194gb], spins? [unknown], types [NTFS]
+[2019-03-12T17:59:31,288][INFO ][o.e.e.NodeEnvironment    ] [22N5-W8] heap size [1.9gb], compressed ordinary object pointers [true]
+[2019-03-12T17:59:31,385][INFO ][o.e.n.Node               ] node name [22N5-W8] derived from node ID [22N5-W87SESN9dmtoPkHIw]; set [node.name] to override
+[2019-03-12T17:59:31,390][INFO ][o.e.n.Node               ] version[5.1.1], pid[10584], build[5395e21/2016-12-06T12:36:15.409Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_66/25.66-b18]
+[2019-03-12T17:59:32,814][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [aggs-matrix-stats]
+[2019-03-12T17:59:32,814][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [ingest-common]
+[2019-03-12T17:59:32,820][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [lang-expression]
+[2019-03-12T17:59:32,821][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [lang-groovy]
+[2019-03-12T17:59:32,821][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [lang-mustache]
+[2019-03-12T17:59:32,822][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [lang-painless]
+[2019-03-12T17:59:32,822][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [percolator]
+[2019-03-12T17:59:32,823][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [reindex]
+[2019-03-12T17:59:32,824][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [transport-netty3]
+[2019-03-12T17:59:32,825][INFO ][o.e.p.PluginsService     ] [22N5-W8] loaded module [transport-netty4]
+[2019-03-12T17:59:32,826][INFO ][o.e.p.PluginsService     ] [22N5-W8] no plugins loaded
+[2019-03-12T17:59:36,115][INFO ][o.e.n.Node               ] initialized
+[2019-03-12T17:59:36,117][INFO ][o.e.n.Node               ] [22N5-W8] starting ...
+[2019-03-12T17:59:36,720][INFO ][o.e.t.TransportService   ] [22N5-W8] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-03-12T17:59:40,832][INFO ][o.e.c.s.ClusterService   ] [22N5-W8] new_master {22N5-W8}{22N5-W87SESN9dmtoPkHIw}{DyDRzKIIQoqOM0jYgsQvZA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2019-03-12T17:59:41,286][INFO ][o.e.g.GatewayService     ] [22N5-W8] recovered [1] indices into cluster_state
+[2019-03-12T17:59:41,815][INFO ][o.e.h.HttpServer         ] [22N5-W8] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-03-12T17:59:41,819][INFO ][o.e.n.Node               ] [22N5-W8] started
+[2019-03-12T17:59:42,229][INFO ][o.e.c.r.a.AllocationService] [22N5-W8] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[tweetindex][3]] ...]).
+[2019-03-12T18:00:10,897][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:00:40,940][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:01:10,971][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:01:41,003][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:02:11,052][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:02:41,083][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
