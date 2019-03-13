@@ -1662,3 +1662,131 @@ Was expecting one of:
 [2019-03-12T18:01:41,003][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
 [2019-03-12T18:02:11,052][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
 [2019-03-12T18:02:41,083][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:03:11,133][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:03:41,163][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:04:11,191][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:04:41,211][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:05:11,234][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:05:41,262][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:06:11,314][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:06:41,337][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:07:11,378][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:07:41,401][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:08:11,427][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:08:41,448][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:09:11,473][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:09:41,617][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.7gb[12.7%], replicas will not be assigned to this node
+[2019-03-12T18:10:11,708][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.5gb[12.6%], replicas will not be assigned to this node
+[2019-03-12T18:10:41,739][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.5gb[12.6%], replicas will not be assigned to this node
+[2019-03-12T18:11:11,796][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.5gb[12.6%], replicas will not be assigned to this node
+[2019-03-12T18:11:41,826][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.5gb[12.6%], replicas will not be assigned to this node
+[2019-03-12T18:12:11,920][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.5gb[12.6%], replicas will not be assigned to this node
+[2019-03-12T18:12:42,016][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.4gb[12.5%], replicas will not be assigned to this node
+[2019-03-12T18:13:12,048][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.4gb[12.5%], replicas will not be assigned to this node
+[2019-03-12T18:13:42,093][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.4gb[12.5%], replicas will not be assigned to this node
+[2019-03-12T18:14:12,136][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.4gb[12.5%], replicas will not be assigned to this node
+[2019-03-12T18:14:42,175][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.4gb[12.5%], replicas will not be assigned to this node
+[2019-03-12T18:15:07,266][INFO ][o.e.c.m.MetaDataCreateIndexService] [22N5-W8] [tweetindex] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-12T18:15:07,556][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] create_mapping [tweet]
+[2019-03-12T18:15:07,593][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:07,677][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:07,746][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:07,848][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:07,927][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,008][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,028][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,129][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,156][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,317][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,389][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,576][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,622][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,752][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:08,945][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:09,001][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:09,134][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:09,160][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:09,208][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:09,508][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:09,818][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:10,139][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:10,972][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:12,266][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.9gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:15:16,175][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:19,667][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:22,599][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:26,783][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:28,273][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:28,487][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:29,181][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/0AqdBOSTQV2qwUlkUlkM-A] update_mapping [tweet]
+[2019-03-12T18:15:31,674][INFO ][o.e.m.j.JvmGcMonitorService] [22N5-W8] [gc][947] overhead, spent [504ms] collecting in the last [1s]
+[2019-03-12T18:15:42,406][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.7gb[12.7%], replicas will not be assigned to this node
+[2019-03-12T18:16:12,443][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.7gb[12.7%], replicas will not be assigned to this node
+[2019-03-12T18:16:30,977][INFO ][o.e.c.m.MetaDataCreateIndexService] [22N5-W8] [tweetindex] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-12T18:16:31,181][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] create_mapping [tweet]
+[2019-03-12T18:16:31,187][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,193][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,227][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,257][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,271][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,323][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,331][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,367][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,426][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,512][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,528][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,629][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,695][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,818][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,830][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,843][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:31,961][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:32,046][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:32,131][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:32,261][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:32,375][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:32,464][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:34,067][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:34,393][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:37,407][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:40,484][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:42,781][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.9gb[12.8%], replicas will not be assigned to this node
+[2019-03-12T18:16:42,932][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:47,241][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:48,795][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:49,321][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:16:50,246][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/6jPgdW07T5m17S1OhSu-Gw] update_mapping [tweet]
+[2019-03-12T18:17:12,876][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.7gb[12.7%], replicas will not be assigned to this node
+[2019-03-12T18:17:20,448][INFO ][o.e.c.m.MetaDataCreateIndexService] [22N5-W8] [tweetindex] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-12T18:17:20,671][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] create_mapping [tweet]
+[2019-03-12T18:17:20,679][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:20,707][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:20,716][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:20,767][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:20,778][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:20,814][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:20,911][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:20,924][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,002][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,047][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,064][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,197][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,257][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,314][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,331][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,422][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,481][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,511][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,611][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,699][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:21,894][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:22,347][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:26,450][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:30,374][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:32,843][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:37,552][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:38,871][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:39,396][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:40,292][INFO ][o.e.c.m.MetaDataMappingService] [22N5-W8] [tweetindex/qW10COPRRqaU5b2XwDN7mQ] update_mapping [tweet]
+[2019-03-12T18:17:43,148][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.8gb[12.7%], replicas will not be assigned to this node
+[2019-03-12T18:18:13,237][INFO ][o.e.c.r.a.DiskThresholdMonitor] [22N5-W8] low disk watermark [85%] exceeded on [22N5-W87SESN9dmtoPkHIw][22N5-W8][C:\Users\Thomas\Documents\CS172\Final-Project\finalproject-4man\elasticsearch\elasticsearch-5.1.1\data\nodes\0] free: 24.7gb[12.7%], replicas will not be assigned to this node

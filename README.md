@@ -54,3 +54,8 @@ curl.exe -XGET 'http://localhost:9200/tweetindex/tweet/_search?q=Riverside&prett
 this returns all tweets that contain the string "Riverside" in any of the fields.
 
 NOTE: all these commands are for Windows Powershell. MacOS Terminal and unix terminals may use different commands. Ex. curl.exe would just be curl.
+
+FOR REFERENCE: To delete index, use:
+```
+curl -X DELETE 'localhost:9200/tweetindex'
+```
