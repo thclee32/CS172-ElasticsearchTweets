@@ -1,4 +1,4 @@
-###To run (EASY): 
+# To run (EASY): 
 Start Elasticsearch. (Whatever version you have)
 
 Navigate to this directory (the one this README is in)
@@ -8,7 +8,7 @@ Run the elasticquery.sh script. This will bulk load all 35087 tweets into Elasti
 To run a query, run the elasticquery.sh script. This will search for your query term in tweet text.
 
 
-###To run (MANUALLY):
+# To run (MANUALLY):
 If you want to manually run the commands, instead of using the scripts:
 
 To use:
