@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS172 Final Project</title>
+</head>
+<body>
+<h1>CS172 Demo</h1>
+<div id="search_container">
+    <label for"search">Search</label>
+    <input type="text" id="search"/>
+    <input type="submit" onclick="doSearch(document.getElementById('search').value;"/>
+</div>
+<div id="total"></div>
+<div id="hits"></div>
+<script type="application/javascript">
+    function doSearch(term) {
+        var searchHost = 'http://localhost:9200/tweetindex/_search';
+        var body = {
+                "query" : {
+                "match" : { "text" : term }
+            },
+            "highlight" : {
+                "fields" : {
+                    "text" : {}
+                }
+            }
+        };
+
+
+
+
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open('POST', searchHost, false);
+        xmlHttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+        xmlHttp.send(JSON.stringify(body));
+        var response = JSON.parse(xmlHttp.responseText);
+        
+        document.getElementById("total").innerHTML = response;
+    }
+
+    doSearch('');
+</script>
+</body>
+</html>
