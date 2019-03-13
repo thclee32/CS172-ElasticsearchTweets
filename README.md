@@ -3,7 +3,7 @@ Start Elasticsearch. (Whatever version you have)
 
 Navigate to this directory (the one this README is in)
 
-Run
+Run:
 ```
 ./elasticindex.sh
 ```
@@ -11,7 +11,7 @@ This scripts loads all 35087 tweets into Elasticsearch.
 
 NOTE: This script does not terminate correctly when the index already exists.
 
-To search for tweets with a certain word in it, run
+To search for tweets with a certain word in it, run:
 ```
 ./elasticquery.sh
 ```
