@@ -7,16 +7,19 @@
 <body>
 <h1>CS172 Demo</h1>
 <div id="search_container">
-    <label for"search">Search</label>
+    <label for="search">Search</label>
     <input type="text" id="search"/>
-    <input type="submit" onclick="doSearch(document.getElementById('search').value;"/>
+    <button onclick="doSearch(document.getElementById('search').value);">Submit</button>
 </div>
 <div id="total"></div>
 <div id="hits"></div>
-<script type="application/javascript">
+
+<script>
+
     function doSearch(term) {
         var searchHost = 'http://localhost:9200/tweetindex/_search';
-        var body = {
+        
+        var searchQuery = {
                 "query" : {
                 "match" : { "text" : term }
             },
@@ -25,21 +28,44 @@
                     "text" : {}
                 }
             }
+            
         };
-
-
-
-
-        var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open('POST', searchHost, false);
-        xmlHttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
-        xmlHttp.send(JSON.stringify(body));
-        var response = JSON.parse(xmlHttp.responseText);
         
-        document.getElementById("total").innerHTML = response;
+
+        /*
+        var searchQuery = {
+                "query" : {
+                "match" : { "text" : term }
+            }
+        };
+        */
+
+        
+
+        console.log(JSON.stringify(searchQuery));
+
+        
+        var request = new XMLHttpRequest();
+
+        request.open('POST', searchHost, false);
+        request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+        request.send(JSON.stringify(searchQuery));
+
+        var response = JSON.parse(request.responseText);
+
+        
+        var output = [];
+        for (var i = 0; i < response.hits.hits.length; ++i) {
+            output += '<h3>' + response.hits.hits[i]._source.user.screen_name + '</h3>';
+            output += response.hits.hits[i].highlight.text;
+
+        }
+        document.getElementById("total").innerHTML = '<h2>Showing ' + response.hits.hits.length + ' of ' + response.hits.total + ' results</h2>';
+        document.getElementById('hits').innerHTML = output;
     }
 
-    doSearch('');
+
+    
 </script>
 </body>
 </html>
