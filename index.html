@@ -9,10 +9,23 @@
 <div id="search_container">
     <label for="search">Search</label>
     <input type="text" id="search"/>
-    <button onclick="doSearch(document.getElementById('search').value);">Submit</button>
+    <button id="myBtn" onclick="doSearch(document.getElementById('search').value);">Submit</button>
 </div>
 <div id="total"></div>
 <div id="hits"></div>
+
+<script>
+    var input = document.getElementById("search");
+    input.addEventListener("keyup", function(event) {
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+          // Cancel the default action, if needed
+          event.preventDefault();
+          // Trigger the button element with a click
+          document.getElementById("myBtn").click();
+        }
+    });
+</script>
 
 <script>
 
@@ -50,7 +63,6 @@
         document.getElementById("total").innerHTML = '<h2>Showing ' + response.hits.hits.length + ' of ' + response.hits.total + ' results</h2>';
         document.getElementById('hits').innerHTML = output;
     }
-
 
     
 </script>
