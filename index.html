@@ -30,19 +30,6 @@
             }
             
         };
-        
-
-        /*
-        var searchQuery = {
-                "query" : {
-                "match" : { "text" : term }
-            }
-        };
-        */
-
-        
-
-        console.log(JSON.stringify(searchQuery));
 
         
         var request = new XMLHttpRequest();
@@ -52,7 +39,6 @@
         request.send(JSON.stringify(searchQuery));
 
         var response = JSON.parse(request.responseText);
-
         
         var output = [];
         for (var i = 0; i < response.hits.hits.length; ++i) {
@@ -60,6 +46,7 @@
             output += response.hits.hits[i].highlight.text;
 
         }
+        
         document.getElementById("total").innerHTML = '<h2>Showing ' + response.hits.hits.length + ' of ' + response.hits.total + ' results</h2>';
         document.getElementById('hits').innerHTML = output;
     }
