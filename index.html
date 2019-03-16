@@ -2,18 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--This is what shows up on the tab-->
     <title>CS172 Final Project</title>
 </head>
 <body>
-<h1>CS172 Demo</h1>
+<!--This is the big header for the page-->
+<h1>CS172 ES + Web UI Demo</h1>
+
+<!--Search bar, and submit button.-->
 <div id="search_container">
-    <label for="search">Search</label>
+    <label for="search">Search: </label>
     <input type="text" id="search"/>
-    <button id="myBtn" onclick="doSearch(document.getElementById('search').value);">Submit</button>
+    <!--When you press submit, it takes the value of the search bar and runs the doSearch function.-->
+    <button id="searchButton" onclick="doSearch(document.getElementById('search').value);">Submit</button>
 </div>
 <div id="total"></div>
 <div id="hits"></div>
 
+<!--This just makes it so that pressing enter also triggers the button.-->
 <script>
     var input = document.getElementById("search");
     input.addEventListener("keyup", function(event) {
@@ -22,17 +28,28 @@
           // Cancel the default action, if needed
           event.preventDefault();
           // Trigger the button element with a click
-          document.getElementById("myBtn").click();
+          document.getElementById("searchButton").click();
         }
     });
 </script>
 
+
+<!--The javascript function for running an ES query.-->
 <script>
 
     function doSearch(term) {
+        //ES is hosted at localhost:9200 by default
         var searchHost = 'http://localhost:9200/tweetindex/_search';
         
+        /*
+        This is the search query, the same as the one in the elasticquery.sh script
+        size: 20 makes it so that we return 20 results instead of the ES default of top 10 results.
+        the query must match the TEXT body of our tweet json (basically what the user tweeted)
+        The highlight portion is for snippet, it conveniently pulls the part of the tweet that gets 
+        matched as well as highlights the term.
+        */
         var searchQuery = {
+            "size" : 20,
                 "query" : {
                 "match" : { "text" : term }
             },
@@ -45,21 +62,45 @@
         };
 
         
+        //This is how you make requests to the localhost. Compare it to the query in elasticsearch.sh to see what's going on
         var request = new XMLHttpRequest();
 
         request.open('POST', searchHost, false);
         request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
         request.send(JSON.stringify(searchQuery));
-
+        
+        //The results are returned in the .responseText field of the XMLHttpRequest
         var response = JSON.parse(request.responseText);
         
-        var output = [];
+
+        var output = '' //This is just a string to hold all the results we'll be printing.
+
+        //REFER TO TWITTER'S DOCUMENTATION OF TWEET JSON FORMAT to see how I'm pulling this data
+        //Alternatively look at the results I get from the elasticsearch.sh script, and you'll see the JSON it returns.
+        //I'm just outputting it in a nicer way for the web page.
+
+        //Iterate through the 'hits' array in the responseText JSON for each tweet that was returned. (Up to 20)
         for (var i = 0; i < response.hits.hits.length; ++i) {
+
+            //Grab the screen name of each tweet, append it to the string.
             output += '<h3>' + response.hits.hits[i]._source.user.screen_name + '</h3>';
+            
+            //Grab the ES query score of each tweet, append it to the string.
+            var tempscore = response.hits.hits[i]._score;
+            var scorestring = tempscore.toString();
+            output += '<h5>Score: ' + scorestring + "</h5>";
+            
+            //Grab the actual highlight/snippet, append it to the string.
             output += response.hits.hits[i].highlight.text;
 
         }
+
+        //THIS WAY, we are outputting each tweet by Screen Name, ES Query Score, and Tweet Snippet.
         
+        /*
+        //Output how many tweets we're printing, and the total number of tweets returned. (Useful for
+        queries that return more than 20 tweets)
+        */
         document.getElementById("total").innerHTML = '<h2>Showing ' + response.hits.hits.length + ' of ' + response.hits.total + ' results</h2>';
         document.getElementById('hits').innerHTML = output;
     }

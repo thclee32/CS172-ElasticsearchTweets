@@ -11,7 +11,19 @@ This scripts loads all 35087 tweets into Elasticsearch.
 
 NOTE: This script does not terminate correctly when the index already exists.
 
-To search for tweets with a certain word in it, run:
+## TWO WAYS TO GET RESULTS:
+#### In your browser:
+Open index.html. Make sure you have this Chrome extension installed and turned on: 
+
+https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc?hl=en-US
+
+If still nothing comes up, press F12 (at least on Chrome) to open the JavaScript terminal and see what kind of errors you're getting. If you're getting some sort of Cross-Origin Resource Sharing (CORS) error, maybe try a different extension. I had to try two before I got it to work. 
+
+But hopefully once you have one of the CORS extensions installed, index.html should work. 
+I've commented index.html extensively, so hopefully you guys can follow what I did. If you have questions just text me.
+
+
+#### In the terminal:
 ```
 ./elasticquery.sh
 ```
