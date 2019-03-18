@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <!--This is what shows up on the tab-->
     <title>CS172 Final Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <!--This is the big header for the page-->
@@ -16,8 +19,17 @@
     <!--When you press submit, it takes the value of the search bar and runs the doSearch function.-->
     <button id="searchButton" onclick="doSearch(document.getElementById('search').value);">Submit</button>
 </div>
+ 
 <div id="total"></div>
-<div id="hits"></div>
+<div id="map"></div>
+          <script initMap([]); ></script>
+          <script async defer 
+                          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxZ_pouUFRs-YPDo7VmOlZci1LHXlI5Q8&callback=initMap"></script>
+
+<div id = "hits";></div>
+ 
+
+
 
 <!--This just makes it so that pressing enter also triggers the button.-->
 <script>
@@ -58,8 +70,8 @@
                     "text" : {}
                 }
             }
-            
         };
+            
 
         
         //This is how you make requests to the localhost. Compare it to the query in elasticsearch.sh to see what's going on
@@ -73,8 +85,10 @@
         var response = JSON.parse(request.responseText);
         
 
-        var output = '' //This is just a string to hold all the results we'll be printing.
+        var output = ''//This is just a string to hold all the results we'll be printing.
 
+        var count = 0;
+        var locations = [];
         //REFER TO TWITTER'S DOCUMENTATION OF TWEET JSON FORMAT to see how I'm pulling this data
         //Alternatively look at the results I get from the elasticsearch.sh script, and you'll see the JSON it returns.
         //I'm just outputting it in a nicer way for the web page.
@@ -92,20 +106,61 @@
             
             //Grab the actual highlight/snippet, append it to the string.
             output += response.hits.hits[i].highlight.text;
-
+            
+            if(response.hits.hits[i]._source.geo != null){
+              locations.push( [response.hits.hits[i]._source.user.screen_name, response.hits.hits[i]._source.geo.coordinates[0], response.hits.hits[i]._source.geo.coordinates[1], response.hits.hits[i]._source.text]);
+              count += 1;
+            }
+            
         }
 
-        //THIS WAY, we are outputting each tweet by Screen Name, ES Query Score, and Tweet Snippet.
-        
-        /*
-        //Output how many tweets we're printing, and the total number of tweets returned. (Useful for
-        queries that return more than 20 tweets)
-        */
-        document.getElementById("total").innerHTML = '<h2>Showing ' + response.hits.hits.length + ' of ' + response.hits.total + ' results</h2>';
-        document.getElementById('hits').innerHTML = output;
+          document.getElementById("total").innerHTML = '<h2>Showing ' + response.hits.hits.length + ' of ' + response.hits.total + ' results</h2>';
+          document.getElementById('hits').innerHTML = output;
+
+          initMap(locations);
     }
 
     
-</script>
+      
+    function initMap(locations) {
+
+
+      if(locations == null) {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 11,
+          center: new google.maps.LatLng(33.9806,-117.3755),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+      }
+      else{
+        var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: new google.maps.LatLng(locations[0][1],locations[0][2]),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+      }
+
+      var infowindow = new google.maps.InfoWindow({});
+
+      var marker, i;
+
+      for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+          position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+          map: map
+        });
+
+        google.maps.event.addListener(marker, 'click', (function (marker, i) {
+          return function () {
+            infowindow.setContent("<h4>User: " + locations[i][0] + "</h4>\n" + locations[i][3]);
+            infowindow.open(map, marker);
+          }
+        })(marker, i));
+      }
+    }
+
+        </script>
+       
+
 </body>
 </html>

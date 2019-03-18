@@ -1,0 +1,24 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+#map {
+	height: 70%;
+	width:  45%;
+	float: right;
+
+}
+#hits {
+	height: 70%;
+	width: 50%;
+	border: 1px solid #ccc;
+	font: 16px/26px Georgia, Garamond, Serif;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+}
